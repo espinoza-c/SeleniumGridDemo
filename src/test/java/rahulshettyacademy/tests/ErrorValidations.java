@@ -1,8 +1,9 @@
-package test.java.rahulshettyacademy.tests;
+package rahulshettyacademy.tests;
 
-import main.java.rahulsherryacademy.pageobjects.ProductCatalogue;
+
 import org.testng.annotations.Test;
-import test.java.rahulshettyacademy.TestComponents.BaseTest;
+import rahulsherryacademy.pageobjects.ProductCatalogue;
+import rahulshettyacademy.TestComponents.BaseTest;
 import java.io.IOException;
 import static org.testng.Assert.*;
 

@@ -1,12 +1,18 @@
-package test.java.rahulshettyacademy.tests;
+package rahulshettyacademy.tests;
 
-import main.java.rahulsherryacademy.pageobjects.*;
+
 import org.openqa.selenium.WebElement;
 import org.testng.annotations.Test;
-import test.java.rahulshettyacademy.TestComponents.BaseTest;
+import rahulsherryacademy.pageobjects.CartPage;
+import rahulsherryacademy.pageobjects.CheckoutPage;
+import rahulsherryacademy.pageobjects.ConfirmationPage;
+import rahulsherryacademy.pageobjects.ProductCatalogue;
+import rahulshettyacademy.TestComponents.BaseTest;
+
 import java.io.IOException;
 import java.util.List;
-import static org.testng.Assert.*;
+
+import static org.testng.Assert.assertTrue;
 
 public class SubmitOrderTest extends BaseTest {
 

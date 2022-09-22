@@ -1,12 +1,13 @@
-package main.java.rahulsherryacademy.pageobjects;
+package rahulsherryacademy.pageobjects;
 
-import main.java.rahulsherryacademy.AbstractComponents.AbstractComponent;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import rahulsherryacademy.AbstractComponents.AbstractComponent;
 
 public class CheckoutPage extends AbstractComponent {
     WebDriver driver;

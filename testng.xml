@@ -3,22 +3,25 @@
     <test name="FirefoxTests" >
         <parameter name="browser" value="firefox"/>
         <classes>
-            <class name="test.java.rahulshettyacademy.tests.SubmitOrderTest"/>
-            <class name="test.java.rahulshettyacademy.tests.ErrorValidations"/>
+            <class name="rahulshettyacademy.TestComponents.BaseTest"/>
+            <class name="rahulshettyacademy.tests.SubmitOrderTest"/>
+            <class name="rahulshettyacademy.tests.ErrorValidations"/>
         </classes>
     </test>
     <test name="EdgeTests" >
         <parameter name="browser" value="MicrosoftEdge"/>
         <classes>
-            <class name="test.java.rahulshettyacademy.tests.SubmitOrderTest"/>
-            <class name="test.java.rahulshettyacademy.tests.ErrorValidations"/>
+            <class name="rahulshettyacademy.TestComponents.BaseTest"/>
+            <class name="rahulshettyacademy.tests.SubmitOrderTest"/>
+            <class name="rahulshettyacademy.tests.ErrorValidations"/>
         </classes>
     </test>
     <test name="ChromeTests" >
         <parameter name="browser" value="chrome"/>
         <classes>
-            <class name="test.java.rahulshettyacademy.tests.SubmitOrderTest"/>
-            <class name="test.java.rahulshettyacademy.tests.ErrorValidations"/>
+            <class name="rahulshettyacademy.TestComponents.BaseTest"/>
+            <class name="rahulshettyacademy.tests.SubmitOrderTest"/>
+            <class name="rahulshettyacademy.tests.ErrorValidations"/>
         </classes>
     </test>
 </suite>

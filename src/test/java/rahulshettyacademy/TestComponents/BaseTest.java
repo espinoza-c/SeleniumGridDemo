@@ -1,12 +1,14 @@
-package test.java.rahulshettyacademy.TestComponents;
+package rahulshettyacademy.TestComponents;
 
-import main.java.rahulsherryacademy.pageobjects.LandingPage;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
+import rahulsherryacademy.pageobjects.LandingPage;
+
 
 import java.io.FileInputStream;
 import java.io.IOException;
