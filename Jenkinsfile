@@ -8,7 +8,7 @@ pipeline{
             bat "mvn test"
           }
         }
-        stage('End to end tests'){
+        stage('Log'){
           steps{
             bat "echo tests completed successfully"
           }
