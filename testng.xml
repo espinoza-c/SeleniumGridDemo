@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Parallel test suite" parallel="methods" thread-count="6">
+    <test name="FirefoxTests" >
+        <parameter name="browser" value="firefox"/>
+        <classes>
+            <class name="test.java.rahulshettyacademy.tests.SubmitOrderTest"/>
+            <class name="test.java.rahulshettyacademy.tests.ErrorValidations"/>
+        </classes>
+    </test>
+    <test name="EdgeTests" >
+        <parameter name="browser" value="MicrosoftEdge"/>
+        <classes>
+            <class name="test.java.rahulshettyacademy.tests.SubmitOrderTest"/>
+            <class name="test.java.rahulshettyacademy.tests.ErrorValidations"/>
+        </classes>
+    </test>
+    <test name="ChromeTests" >
+        <parameter name="browser" value="chrome"/>
+        <classes>
+            <class name="test.java.rahulshettyacademy.tests.SubmitOrderTest"/>
+            <class name="test.java.rahulshettyacademy.tests.ErrorValidations"/>
+        </classes>
+    </test>
+</suite>
+<!--&lt;!&ndash;<test name="EdgeTests" parallel="classes">&ndash;&gt; para correr todo al mismo tiempo, pero falla firefox por alguna razon-->
+<!--con parallel="tests" corre todos los tests al mismo tiempo pero falla firefox-->
