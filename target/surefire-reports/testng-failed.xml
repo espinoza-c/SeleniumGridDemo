@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="6" parallel="methods" name="Failed suite [Parallel test suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="6" parallel="methods" name="FirefoxTests(failed)" verbose="0">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="rahulshettyacademy.tests.SubmitOrderTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="submitOrder"/>
+          <include name="launchApplication"/>
+        </methods>
+      </class> <!-- rahulshettyacademy.tests.SubmitOrderTest -->
+    </classes>
+  </test> <!-- FirefoxTests(failed) -->
+</suite> <!-- Failed suite [Parallel test suite] -->
